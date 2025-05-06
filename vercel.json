@@ -21,10 +21,6 @@
           "value": "*"
         },
         {
-          "key": "Content-Encoding",
-          "value": "gzip"
-        },
-        {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
         }
@@ -36,10 +32,6 @@
         {
           "key": "Content-Type",
           "value": "application/wasm"
-        },
-        {
-          "key": "Cross-Origin-Embedder-Policy",
-          "value": "require-corp"
         }
       ]
     },
@@ -49,6 +41,10 @@
         {
           "key": "Content-Type",
           "value": "application/octet-stream"
+        },
+        {
+          "key": "Content-Encoding",
+          "value": "identity"
         }
       ]
     },
